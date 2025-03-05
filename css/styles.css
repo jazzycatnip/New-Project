@@ -1,0 +1,40 @@
+  /*https://colorhunt.co/palette/5d8736809d3ca9c46cf4ffc3*/
+  
+  body {
+    background-color: #5D8736;
+    color: #F4FFC3;
+    --bs-link-color: 
+  }
+
+  h1 {
+    color: #001b12;
+  }
+
+  h2 {
+    color: #001b12;
+  }
+
+  .nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #001b12;
+    --bs-nav-link-hover-color: #001b12;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex
+;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+  .nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #198754;
+}
+
+  .green {
+    color: black
+}
