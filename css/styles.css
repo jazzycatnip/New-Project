@@ -1,9 +1,17 @@
   /*https://colorhunt.co/palette/5d8736809d3ca9c46cf4ffc3*/
   
+  a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+ 
   body {
     background-color: #5D8736;
     color: #F4FFC3;
-    --bs-link-color: 
   }
 
   h1 {
@@ -14,6 +22,18 @@
     color: #001b12;
   }
 
+  h3 {
+    color: #001b12;
+  }
+
+  .green {
+    color: #001b12
+}
+
+  .icon-link {
+    text-decoration-color: #001b12;
+  }
+
   .nav {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
@@ -21,8 +41,7 @@
     --bs-nav-link-color: #001b12;
     --bs-nav-link-hover-color: #001b12;
     --bs-nav-link-disabled-color: var(--bs-secondary-color);
-    display: flex
-;
+    display: flex;
     flex-wrap: wrap;
     padding-left: 0px;
     margin-bottom: 0px;
@@ -33,8 +52,4 @@
     --bs-nav-pills-border-radius: var(--bs-border-radius);
     --bs-nav-pills-link-active-color: #fff;
     --bs-nav-pills-link-active-bg: #198754;
-}
-
-  .green {
-    color: black
 }
