@@ -25,6 +25,11 @@
   h3 {
     color: #f5ffd3;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
 
   .green {
     color: #f5ffd3;
